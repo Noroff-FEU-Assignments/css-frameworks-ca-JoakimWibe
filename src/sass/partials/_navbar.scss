@@ -1,0 +1,23 @@
+.navbar-light .navbar-brand {
+  font-family: $headings-font-family;
+  color: $colour-primary;
+  font-weight: bold;
+}
+
+.form-control {
+  border: none;
+}
+
+.btn-go {
+  background: $colour-primary;
+  color: white;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  background: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}

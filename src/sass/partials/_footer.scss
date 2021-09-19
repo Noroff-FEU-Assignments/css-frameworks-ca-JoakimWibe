@@ -1,0 +1,22 @@
+footer {
+  background: white;
+  color: $colour-secondary;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+
+  i {
+    font-size: 2rem;
+    margin: 10px;
+  }
+
+  p {
+    margin: 10px;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}

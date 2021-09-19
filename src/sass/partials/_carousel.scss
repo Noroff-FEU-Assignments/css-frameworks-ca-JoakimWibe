@@ -1,0 +1,17 @@
+.carousel-indicators [data-bs-target] {
+  height: 30px;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: $colour-primary;
+}
+
+.carousel-inner {
+  max-height: 400px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}

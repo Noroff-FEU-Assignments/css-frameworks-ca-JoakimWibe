@@ -1,0 +1,15 @@
+.page-item.active .page-link {
+  color: #fff;
+  background-color: $colour-primary;
+  border-color: $colour-primary;
+}
+
+.page-link {
+  color: $colour-primary;
+  border: 1px solid $colour-primary;
+
+  &:hover {
+    border: 1px solid $colour-primary;
+    color: $colour-primary;
+  }
+}

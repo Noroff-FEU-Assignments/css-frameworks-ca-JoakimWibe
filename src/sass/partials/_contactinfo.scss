@@ -1,0 +1,15 @@
+.contact-info {
+  padding: 0;
+
+  .col {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+  }
+
+  i {
+    font-size: 2em;
+    margin-right: 10px;
+    color: $colour-secondary;
+  }
+}

@@ -1,0 +1,35 @@
+$colour-primary: #e92569;
+$colour-secondary: #767676;
+$colour-background: #c7c7c7;
+$colour-navbar: #efefef;
+$colour-input: white;
+
+//bootstrap
+$theme-colors: (
+  "primary": $colour-primary,
+  "secondary": $colour-secondary,
+  "dark": $colour-navbar,
+);
+
+$input-bg: $colour-input;
+
+$font-family-base: "Lato", sans-serif;
+$headings-font-family: "Playfair Display", serif;
+$headings-color: $colour-primary;
+
+$body-bg: $colour-background;
+$body-color: black;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "./partials/layout";
+@import "./partials/form";
+@import "./partials/typography";
+@import "./partials/tabs";
+@import "./partials/accordion";
+@import "./partials/cards";
+@import "./partials/footer";
+@import "./partials/carousel";
+@import "./partials/navbar";
+@import "./partials/pagination";
+@import "./partials/contactinfo";

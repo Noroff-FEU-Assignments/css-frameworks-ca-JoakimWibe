@@ -1,0 +1,24 @@
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link,
+.tab-content {
+  background: white;
+}
+
+.nav-tabs .nav-link {
+  color: $colour-primary;
+}
+
+.tab-content {
+  padding: 1em;
+  margin-bottom: 20px;
+
+  .share {
+    display: flex;
+    flex-direction: row;
+    color: $colour-secondary;
+  }
+
+  i {
+    margin: 3px 10px;
+  }
+}
