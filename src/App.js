@@ -9,7 +9,7 @@ import Home from "./components/home/Home";
 import News from "./components/news/News";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/Footer";
-import { Container } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 
 function App() {
   return (
